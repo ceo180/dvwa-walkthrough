@@ -14,8 +14,8 @@ The application's password change form relies solely on the user's session cooki
 <summary><b>📸 View Exploit & Source Code</b></summary>
 <br>
 
-![CSRF Low Exploit](images/csrf-low-exploit.png)
-![CSRF Low Source](images/csrf-low-code.png)
+![CSRF Low Exploit](images/csrf1-ex.png)
+![CSRF Low Source](images/csrf1-sc.png)
 </details>
 
 **Code Analysis:**
@@ -32,8 +32,8 @@ The application now checks the `HTTP_REFERER` header to ensure the request origi
 <summary><b>📸 View Exploit & Source Code</b></summary>
 <br>
 
-![CSRF Medium Exploit](images/csrf-med-exploit.png)
-![CSRF Medium Source](images/csrf-med-code.png)
+![CSRF Medium Exploit](images/csrf2-ex.png)
+![CSRF Medium Source](images/csrf2-sc.png)
 </details>
 
 **Code Analysis:**
@@ -50,8 +50,8 @@ The application introduces an Anti-CSRF token (`user_token`) that changes per re
 <summary><b>📸 View Exploit & Source Code</b></summary>
 <br>
 
-![CSRF High Exploit](images/csrf-high-exploit.png)
-![CSRF High Source](images/csrf-high-code.png)
+![CSRF High Exploit](images/csrf3-ex.png)
+![CSRF High Source](images/csrf3-sc.png)
 </details>
 
 **Code Analysis:**
