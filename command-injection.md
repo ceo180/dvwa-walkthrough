@@ -14,8 +14,8 @@ The application takes an IP address to ping and directly appends it to a system 
 <summary><b>📸 View Exploit & Source Code</b></summary>
 <br>
 
-![Command Injection Low Exploit](images/cmd-inj-low-exploit.png)
-![Command Injection Low Source](images/cmd-inj-low-code.png)
+![Command Injection Low Exploit](images/cmd1-ex.png)
+![Command Injection Low Source](images/cmd1-sc.png)
 </details>
 
 **Code Analysis:** 
@@ -33,8 +33,8 @@ This level attempts to stop the previous attack by implementing a blacklist, rem
 <summary><b>📸 View Exploit & Source Code</b></summary>
 <br>
 
-![Command Injection Medium Exploit](images/cmd-inj-med-exploit.png)
-![Command Injection Medium Source](images/cmd-inj-med-code.png)
+![Command Injection Medium Exploit](images/cmd2-ex.png)
+![Command Injection Medium Source](images/cmd2-sc.png)
 </details>
 
 **Code Analysis:** 
@@ -52,8 +52,8 @@ The blacklist is expanded to strip out almost all shell metacharacters, includin
 <summary><b>📸 View Exploit & Source Code</b></summary>
 <br>
 
-![Command Injection High Exploit](images/cmd-inj-high-exploit.png)
-![Command Injection High Source](images/cmd-inj-high-code.png)
+![Command Injection High Exploit](images/cmd3-ex.png)
+![Command Injection High Source](images/cmd3-sc.png)
 </details>
 
 **Code Analysis:** 
