@@ -16,10 +16,10 @@ The application takes the `page` parameter from the URL and directly includes it
 <br>
 
 **Execution Output:**
-![File Inclusion Low Exploit](images/fi-low-exploit.png)
+![File Inclusion Low Exploit](images/lfi1-ex.png)
 
 **Source Code:**
-![File Inclusion Low Source](images/fi-low-code.png)
+![File Inclusion Low Source](images/lfi1-sc.png)
 </details>
 
 **Code Analysis:**
@@ -44,10 +44,10 @@ The application attempts to block RFI and directory traversal by blacklisting co
 <br>
 
 **Execution Output:**
-![File Inclusion Medium Exploit](images/fi-med-exploit.png)
+![File Inclusion Medium Exploit](images/lfi2-ex.png)
 
 **Source Code:**
-![File Inclusion Medium Source](images/fi-med-code.png)
+![File Inclusion Medium Source](images/lfi2-sc.png)
 </details>
 
 **Code Analysis:**
@@ -71,10 +71,10 @@ The high-level filter demands that the `page` parameter must either be exactly `
 <br>
 
 **Execution Output:**
-![File Inclusion High Exploit](images/fi-high-exploit.png)
+![File Inclusion High Exploit](images/lfi3-ex.png)
 
 **Source Code:**
-![File Inclusion High Source](images/fi-high-code.png)
+![File Inclusion High Source](images/lfi3-sc.png)
 </details>
 
 **Code Analysis:**
