@@ -17,10 +17,10 @@ If we inject `1' AND 1=1 #`, the statement is True, and the application confirms
 <br>
 
 **Execution Output (True vs False):**
-![Blind SQLi Low Exploit](images/bsqli-low-exploit.png)
+![Blind SQLi Low Exploit](images/sqli1-ex.png)
 
 **Source Code:**
-![Blind SQLi Low Source](images/bsqli-low-code.png)
+![Blind SQLi Low Source](images/sqli1-sc.png)
 </details>
 
 **Code Analysis:**
@@ -44,10 +44,10 @@ The application shifts to a POST request via a dropdown menu and sanitizes the i
 <br>
 
 **Execution Output (Burp Suite Intercept showing 5-second delay):**
-![Blind SQLi Medium Exploit](images/bsqli-med-exploit.png)
+![Blind SQLi Medium Exploit](images/sqli2-ex.png)
 
 **Source Code:**
-![Blind SQLi Medium Source](images/bsqli-med-code.png)
+![Blind SQLi Medium Source](images/sqli2-sc.png)
 </details>
 
 **Code Analysis:**
@@ -71,10 +71,10 @@ The application moves the input mechanism to a separate window and relies on a s
 <br>
 
 **Execution Output:**
-![Blind SQLi High Exploit](images/bsqli-high-exploit.png)
+![Blind SQLi High Exploit](images/sqli3-ex.png)
 
 **Source Code:**
-![Blind SQLi High Source](images/bsqli-high-code.png)
+![Blind SQLi High Source](images/sqli3-sc.png)
 </details>
 
 **Code Analysis:**
