@@ -15,10 +15,10 @@ The application takes a user ID from a text field and inserts it directly into t
 <br>
 
 **Execution Output:**
-![SQLi Low Exploit](images/sqli-low-exploit.png)
+![SQLi Low Exploit](images/sql1-ex.png)
 
 **Source Code:**
-![SQLi Low Source](images/sqli-low-code.png)
+![SQLi Low Source](images/sql1-sc.png)
 </details>
 
 **Code Analysis:**
@@ -42,10 +42,10 @@ The developer changed the input method from a text box to a dropdown menu, forci
 <br>
 
 **Execution Output (Burp Suite Intercept):**
-![SQLi Medium Exploit](images/sqli-med-exploit.png)
+![SQLi Medium Exploit](images/sql2-ex.png)
 
 **Source Code:**
-![SQLi Medium Source](images/sqli-med-code.png)
+![SQLi Medium Source](images/sql2-sc.png)
 </details>
 
 **Code Analysis:**
@@ -69,10 +69,10 @@ The application attempts to thwart attackers and automated tools (like SQLmap) b
 <br>
 
 **Execution Output:**
-![SQLi High Exploit](images/sqli-high-exploit.png)
+![SQLi High Exploit](images/sql3-ex.png)
 
 **Source Code:**
-![SQLi High Source](images/sqli-high-code.png)
+![SQLi High Source](images/sql3-sc.png)
 </details>
 
 **Code Analysis:**
